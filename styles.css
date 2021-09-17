@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'backstreetregular';
+    src: url('fonts/backstreet.eot');
+    src: url('fonts/backstreet.eot?#iefix') format('embedded-opentype'),
+        url('fonts/backstreet.woff2') format('woff2'),
+        url('fonts/backstreet.woff') format('woff'),
+        url('fonts/backstreet.svg#backstreetregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'timeburnerregular';
+    src: url('fonts/timeburner.eot');
+    src: url('fonts/timeburner.eot?#iefix') format('embedded-opentype'),
+        url('fonts/timeburner.woff2') format('woff2'),
+        url('fonts/timeburner.woff') format('woff'),
+        url('fonts/timeburner.svg#timeburnerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0rem;
+    background-color: #BBC2AE;
+}
+
+.upperrow {
+    min-height: calc(100vh - 90px);
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.col {
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+}
+
+#padia-logo {
+    width: 50%;
+    display: block;
+    margin: auto;
+    height: auto;
+}
+
+h1 {
+    font-family: 'backstreetregular';
+    font-size: 4.5vw;
+    text-align: center;
+    color: #04535c;
+    margin: 0px;
+}
+
+h3 {
+    padding-top: 25px;
+    font-family: 'timeburnerregular';
+    margin: 0rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #505050;
+    text-align: center;
+}
+
+.contact-link {
+    color: #048d9c;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.padia {
+    font-family: 'backstreetregular';
+    color: #04535c;
+    font-size: 1.2rem;
+}
+
+.form-required {
+    color: #bf0000;
+}
+
+footer {
+    background-color: #434343;
+    color: #fff;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    min-height: 70px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+table tr td {
+    vertical-align: top;
+}
+
+.fab {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.btn {
+    background: #04535c;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 4px #a1a1a1;
+    -moz-box-shadow: 1px 1px 4px #a1a1a1;
+    box-shadow: 1px 1px 4px #a1a1a1;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #048d9c;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footerp {
+    margin-bottom: 0px;
+    padding-top: 5px;
+}
+
+.gapping {
+    display: none;
+}
+
+@media (max-width: 990px) {
+
+    .columnar {
+        padding: 30px 0px 20px 0px;
+    }
+    .midcolumn {
+        background-color: white;
+        text-align: center;
+    }
+
+    #padia-logo {
+        width: 20%;
+    }
+
+    h1 {
+        font-size: 6.5vw;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+}
